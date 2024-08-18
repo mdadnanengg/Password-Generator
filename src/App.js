@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react"
+import { toast } from 'react-toastify';
 
 function App() {
   const [length, setLength] = useState(8)
@@ -23,11 +24,16 @@ function App() {
     setPassword(password)
   }, [length, numberAllowed, charAllowed, setPassword])
 
-  const copyPasswordToClipboard = () => {
-    navigator.clipboard.writeText(password)
-      .then(() => alert("Password copied to clipboard"))
-      .catch(() => alert("Failed to copy password"))
-  }
+  const copyPasswordToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(password);
+      toast.success("Password copied to clipboard");
+      passwordRef.current?.select()
+      passwordRef.current?.setSelectionRange(0, password.length)
+    } catch (error) {
+      toast.error("Failed to copy password. Please try again.");
+    }
+  };
 
   useEffect(() => {
     passwordGenerator()
@@ -43,7 +49,7 @@ function App() {
           className="outline-none w-full py-1 px-3"
           placeholder="Password"
           readOnly
-        ref={passwordRef}
+          ref={passwordRef}
         />
         <button
           onClick={copyPasswordToClipboard}
