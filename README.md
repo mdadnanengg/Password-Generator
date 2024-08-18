@@ -14,8 +14,8 @@ The goal of this project is to showcase my ability to build interactive, respons
 
 ## 🖼️ Screenshots
 
-![Screenshot 1](https://drive.google.com/file/d/1ayyXNk0YUc1LxKAdNEYMTgriuIo0RRxN/view?usp=drive_link)
-![Screenshot 2](https://drive.google.com/file/d/1EjUyZLS2wJSkwCIXTC5aG9ODp6gBnz9l/view?usp=sharing)
+[Screenshot 1](https://drive.google.com/file/d/1ayyXNk0YUc1LxKAdNEYMTgriuIo0RRxN/view?usp=drive_link)
+[Screenshot 2](https://drive.google.com/file/d/1EjUyZLS2wJSkwCIXTC5aG9ODp6gBnz9l/view?usp=sharing)
 
 ## 🛠️ Technologies Used
 
