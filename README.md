@@ -22,7 +22,7 @@ The goal of this project is to showcase my ability to build interactive, respons
 - **React**: A JavaScript library for building user interfaces.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **JavaScript (ES6+)**: For handling logic and interactions.
-- **GitHub Pages**: For deploying the live demo.
+- **Vercel**: For deploying the live demo.
 
 ## 📦 Installation
 
