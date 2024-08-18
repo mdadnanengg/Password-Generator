@@ -1,12 +1,12 @@
 # Password Generator 🔒
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://your-live-demo-link.com)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://adnan-password-generator.vercel.app/)
 
 This project is a sleek and interactive password generator built using React and Tailwind CSS. It demonstrates the use of modern frontend technologies and best practices in a user-friendly interface.
 
 ## 🚀 Live Demo
 
-Check out the live version of the project here: [Live Demo](https://your-live-demo-link.com)
+Check out the live version of the project here: [Live Demo](https://adnan-password-generator.vercel.app/)
 
 ## 🎯 Purpose
 
@@ -14,8 +14,8 @@ The goal of this project is to showcase my ability to build interactive, respons
 
 ## 🖼️ Screenshots
 
-![Screenshot 1](link-to-screenshot-1)
-![Screenshot 2](link-to-screenshot-2)
+![Screenshot 1](https://drive.google.com/file/d/1ayyXNk0YUc1LxKAdNEYMTgriuIo0RRxN/view?usp=drive_link)
+![Screenshot 2](https://drive.google.com/file/d/1EjUyZLS2wJSkwCIXTC5aG9ODp6gBnz9l/view?usp=sharing)
 
 ## 🛠️ Technologies Used
 
